@@ -154,7 +154,7 @@
 <script>
 import { email, required, minLength, helpers, sameAs } from 'vuelidate/lib/validators'
 
-const alpha = helpers.regex('alpha', /^[a-zA-Zа-яёА-ЯЁ]*$/)
+const alpha = helpers.regex('alpha', /^[а-яА-Я]*$/)
 
 export default {
    data() {
